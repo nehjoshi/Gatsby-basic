@@ -1,9 +1,9 @@
-import { graphql, Link } from 'gatsby';
+import { Link } from 'gatsby';
 import React from 'react';
 import Layout from '../Components/Layout.js';
 import * as styles from '../Styles/home.module.css';
 
-const IndexPage = ( {data} ) => {
+const IndexPage = ({ data }) => {
   document.title = "First!";
   console.log(data);
   return (
@@ -17,17 +17,4 @@ const IndexPage = ( {data} ) => {
   )
 }
 export default IndexPage;
-export const query = graphql`
-query SiteInfo {
-  site {
-    host
-    port
-    buildTime
-    siteMetadata {
-      description
-      title
-    }
-  }
-}
-`
 

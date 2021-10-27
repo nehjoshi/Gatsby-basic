@@ -4,5 +4,13 @@ module.exports = {
     title: "Basic",
     description: "Basics of Gatsby"
   },
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+  ],
 };
