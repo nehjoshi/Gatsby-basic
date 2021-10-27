@@ -1,0 +1,15 @@
+.about {
+    height: calc(100vh - 120px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about h1 {
+    font-size: 5rem;
+    color: rgb(45, 62, 70);
+}
+.about p {
+    color: rgb(102, 102, 102);
+    font-size: 1.2rem;
+}
