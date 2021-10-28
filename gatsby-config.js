@@ -5,6 +5,7 @@ module.exports = {
     description: "Basics of Gatsby"
   },
   plugins: [
+    "gatsby-transformer-remark",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -3,9 +3,8 @@ import React from 'react';
 import Layout from '../Components/Layout.js';
 import * as styles from '../Styles/home.module.css';
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   document.title = "First!";
-  console.log(data);
   return (
     <Layout>
       <section className={styles.main}>
