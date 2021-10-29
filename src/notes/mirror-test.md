@@ -2,6 +2,7 @@
 title: The Mirror Test
 stack: MERN
 slug: the-mirror-test
+thumb: "../images/blog2.png"
 ---
 
 # The Mirror Test

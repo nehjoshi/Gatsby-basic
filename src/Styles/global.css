@@ -9,6 +9,9 @@
   list-style-type: none;
   scroll-behavior: smooth;
 }
+.layout {
+    height: fit-content;
+}
 nav {
     top: 0;
     height: 60px;
@@ -38,8 +41,6 @@ nav h3 {
     border-bottom: 1px solid #fff !important;
 }
 footer {
-    position: absolute;
-    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
